@@ -16,3 +16,12 @@ fs.root.passwords.list() // print files in passwords
 
 fs.save() // save to localStorage[fs_name]
 ```
+
+```
+let fs = new jssFS('fs')
+
+fs.load()
+
+fs.root.readFile('test.txt')
+
+```
